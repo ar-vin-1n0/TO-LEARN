@@ -30,12 +30,28 @@ def q4(nums,k):
     return rotated
 
 def q5(nums):
-    num_of_nums = len(nums)
-    return num_of_nums
+    freq = {}
+    for num in nums:
+        if num in freq:
+            freq[num] += 1
+        else:
+            freq[num] = 1
+    return freq
 
 def q6(nums):
     nums2 = [11,12,13,14,15,16,17,18,19,20]
-    merged_list = nums + nums2
+    merged_list  = []
+    i = 0
+    j= 0
+    while i < len(nums) and j < len(nums2):
+        if nums2[i] < nums[j]:
+            merged_list.append(nums2[i])
+            i += 1
+        else:
+            merged_list.append(nums2[j])
+            j += 1
+    merged_list.extend(nums[i:])
+    merged_list.extend(nums2[j:])
     return merged_list.sort()
 
 def q7(value:str):
