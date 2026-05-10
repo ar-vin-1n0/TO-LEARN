@@ -1,0 +1,10 @@
+q1.Reverse a list without using reverse()
+q2.Find second largest element
+q3.Remove duplicates
+q4.Rotate list
+q5.Find frequency of elements
+q6.Merge two sorted lists
+q7.Check palindrome list
+q8.Move zeros to end
+q9.Sort list without sort()
+q10.Find common elements between lists
