@@ -87,7 +87,7 @@ print(data["user"]["name"])
 
 #STRING
 
-name = "Aravind"
+name = "aravind"
 
 #sequence of characters
 
@@ -116,7 +116,7 @@ print(result)
 print(name.replace(" ", "_"))
 
 
-#split()
+#strip()
 
 #removes space from a string
 
