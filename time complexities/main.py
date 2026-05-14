@@ -55,7 +55,7 @@ for i in range(len(n)):
 
 # find 4 in list n
 
-#while linear search may search every element in the ist with the searching element which is O(n) complexity
+#while linear search may search every element in the list with the searching element which is O(n) complexity
 #binary search take middle element and check element for search eliminates half and repeats till result
 
 #here take 3 checks eliminates left half repeats checks 4,5 takes middle 4 checks confirm found 4 at n[3]
